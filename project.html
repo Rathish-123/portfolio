@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+  
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+
+      @import url("https://fonts.googleapis.com/css2?family=IBM Plex Mono:wght@300;400;500;600&display=swap");
+
+/* Global Reset */
+.global-reset {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Replace html selector */
+.gallery_body {
+  font: normal 20px IBM Plex Mono;
+  overflow-x: hidden;
+}
+
+/* Gallery Start */
+.intro {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery_container-all {
+  width: 95%;
+  margin: 20px auto;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.gallery_container {
+  width: calc(33% - 6px);  /* Adjust width as needed */
+  height: 300px;           /* Set a fixed height for the gallery card */
+  overflow: hidden;
+  margin: 3px;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  float: none;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.gallery_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container without changing aspect ratio */
+}
+
+.gallery_text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1em;
+  display: none;
+  margin-right: -50%;
+  transition-duration: 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+
+.gallery_title {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 35%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.6em;
+  transition-duration: 0.3s;
+}
+
+
+
+.gallery_container:hover .gallery_image {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+  opacity: 0.5;
+}
+
+.gallery_container:hover span {
+  color: white;
+  display: block;
+  transition-duration: 0.3s;
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    margin-top: 40px;
+  }
+  .gallery_container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+    </style>
+</head>
+<body>
+  <body class="gallery_body global-reset">
+    <div class="intro">
+      <h1>My Projects</h1>
+    </div>
+    <div class="gallery_container-all">
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/trunkmeadows/trunkmeadows-pdf.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/trunkmeadows/Trunkmeadow-logo.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/sunquare/sunsquare logo.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/sunquare/sunsquare.png" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/kaii/kaii.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/kaii/kaii.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/ssm/ssm.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/ssm/ssm.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/den/theden.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/den/den.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/shasha-pkg/shasha-pkg.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/shasha-pkg/pkg.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/shasha-post/shasha.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/shasha-post/shasha.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/orchid/orchid.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/orchid/orchid.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+       <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/meadow-brochure/b.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/meadow-brochure/b.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/meadow-post/b1.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/meadow-post/b1.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/chillum post/c.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/chillum post/c.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/chillum menu/m.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/chillum menu/m.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/dermlines/.dpdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/dermlines/d.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/dclogix/Dclogix.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/dclogix/Dclogix.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/gs/gs.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/gs/gs.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/coco/cc.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/coco/cc.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/menu/menu.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/menu/menu.jpg" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+      <div class="gallery_container">
+        <a href="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/cafeholic/cafe.pdf" target="_blank">
+          <img class="gallery_image" src="D:/Portfolio/Portfolio Update/portfolio/rathish/assets/project/cafeholic/cafe.png" alt="Image description goes here">
+        <span class="gallery_text">Tap To See More</span>  </a>
+      </div>
+   
+    
+   
+    </div>
+    
+</body>
+</html>
